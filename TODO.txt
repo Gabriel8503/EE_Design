@@ -1,0 +1,39 @@
+PCB DESIGN ROADMAP TODO LIST
+
+PHASE 1: Fundamentals and Basic Projects (7/1/2025-present)
+- [ ] Complete a simple LED flasher or 555 timer PCB project using KiCad
+- [ ] Learn schematic capture, netlist generation, and PCB layout in KiCad
+- [ ] Master basics: trace width, pad size, component selection, DRC
+- [ ] Order and solder your first custom PCB from a fab like JLCPCB or OSHPark
+- [ ] Read 'The Art of Electronics' and KiCad official documentation
+- [ ] Join KiCad forums and Reddit communities for peer feedback
+
+PHASE 2: Intermediate Design Challenges
+- [ ] Design a custom microcontroller breakout board (e.g., STM32 or Arduino)
+- [ ] Implement mixed-signal design: ADCs/DACs and sensors with MCUs
+- [ ] Add ground and power planes, plan multi-layer stackups
+- [ ] Learn decoupling, stitching vias, and routing high-current traces
+- [ ] Use IPC-2221 design rules for trace width/spacing
+- [ ] Take an intermediate PCB design course (Udemy, Phil’s Lab)
+
+PHASE 3: Advanced High-Speed and Complex Systems
+- [ ] Design a high-speed FPGA board or data acquisition system
+- [ ] Use differential pair routing and matched-length traces
+- [ ] Simulate trace impedance using Saturn PCB Toolkit or calculators
+- [ ] Practice EMI mitigation: ground pours, shielding, return paths
+- [ ] Study 'High-Speed Digital Design' by Johnson & Graham and SI texts
+- [ ] Reference application notes from TI, Analog Devices, Microchip
+
+PHASE 4: Aerospace & Communication Systems Specialization
+- [ ] Design a CubeSat payload board or ruggedized RF communication module
+- [ ] Learn aerospace-grade stackups, heavy copper, and high-Tg laminates
+- [ ] Use MIL-spec connectors, derated components, and thermal management
+- [ ] Study IPC Class 3 rules, MIL-STD guidelines, and AS9100/478N specs
+- [ ] Implement radiation-hard design and environmental tolerances
+- [ ] Consider IPC Military & Aerospace training for certification
+
+ONGOING:
+- [ ] Learn/maintain Git version control for all projects
+- [ ] Participate in design reviews and DFM checks
+- [ ] Iterate with real-world builds, testing and soldering each design
+- [ ] Post on forums and engage in PCB reviews for feedback and improvement

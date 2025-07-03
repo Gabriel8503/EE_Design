@@ -1379,6 +1379,16 @@
 		)
 		(uuid "eaf1464c-0391-412d-810e-7042adca9cef")
 	)
+	(label "Vdd"
+		(at 140.97 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc416f11-6802-4d4f-8de9-a86dfc69dc32")
+	)
 	(symbol
 		(lib_name "7555_1")
 		(lib_id "GTB5kicad_sym:7555")

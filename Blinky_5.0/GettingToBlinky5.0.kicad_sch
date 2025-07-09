@@ -1038,6 +1038,12 @@
 		)
 	)
 	(junction
+		(at 128.27 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01614b14-13c0-4e4e-a555-9d6c58954f0b")
+	)
+	(junction
 		(at 130.81 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1261,7 +1267,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 127) (xy 119.38 127)
+			(xy 148.59 127) (xy 128.27 127)
 		)
 		(stroke
 			(width 0)
@@ -1341,6 +1347,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 127) (xy 119.38 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d66e19f5-a275-44fe-9803-eeccd90f4963")
+	)
+	(wire
+		(pts
 			(xy 138.43 93.98) (xy 130.81 93.98)
 		)
 		(stroke
@@ -1378,6 +1394,26 @@
 			(type default)
 		)
 		(uuid "eaf1464c-0391-412d-810e-7042adca9cef")
+	)
+	(label "DIS"
+		(at 129.54 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f301eda-5f43-4541-8742-cd19dcdef1fd")
+	)
+	(label "THR"
+		(at 132.08 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a42b156-1218-42c9-9e8f-7c1befd05cf3")
 	)
 	(label "Vdd"
 		(at 140.97 66.04 0)
@@ -1607,6 +1643,72 @@
 			(project ""
 				(path "/7f07159f-9863-4848-a0e7-b5aa6dd12754"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 128.27 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ed29b63-f73a-4475-be3e-fd77612560b6")
+		(property "Reference" "#FLG02"
+			(at 128.27 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 128.27 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 128.27 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fe41692-7797-43be-8775-f97a0179eb74")
+		)
+		(instances
+			(project "GettingToBlinky5.0"
+				(path "/7f07159f-9863-4848-a0e7-b5aa6dd12754"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -1924,7 +2026,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:Untitled"
+		(property "Footprint" "Library:C-Battery"
 			(at 91.44 94.996 90)
 			(effects
 				(font

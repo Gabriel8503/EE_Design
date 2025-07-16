@@ -44,15 +44,6 @@ This Wokwi simulation serves as a **demonstration prototype**. The ultimate goal
 - `README.md`: Project overview and simulation link
 - KiCad design files: *coming soon*
 
----
-
-## 📷 Preview
-
-![Wokwi simulation screenshot](https://raw.githubusercontent.com/your-username/your-repo-name/main/docs/wokwi-preview.png)
-
-> *(You can add a screenshot like this by capturing the Wokwi circuit and placing it in `docs/` folder of your repo)*
-
----
 
 ## License
 

@@ -30,8 +30,8 @@ This Wokwi simulation serves as a **demonstration prototype**. The ultimate goal
 
 ## 🛠️ To Do
 
-- [ ] Design the PCB in KiCad
 - [ ] Select a microcontroller (e.g., ATtiny1616, ATmega328P)
+- [ ] Design the PCB in KiCad
 - [ ] Adapt the code for that MCU (using AVR-GCC or Arduino core)
 - [ ] Print and etch the PCB
 - [ ] Assemble and test the final circuit

@@ -20,5 +20,5 @@ Here's a curated list of resources that I'm currently using:
   *(A foundational project series for FPGA and PCB design by Chris Gammell)*
 
 - **Building a Microcontroller Board from Scratch**  
-  [PDF Guide Link](https://attachments.convertkitcdnm.com/131144/1861af26-d50b-4f31-98b9-467ac304307f/Building-a-Microcontroller-Board-from-Scratch.pdf?utm_campaign=Landing%20Page%20or%20Form%20-%20939283&utm_medium=email&utm_source=convertkit)  
+  [PDF ](https://attachments.convertkitcdnm.com/131144/1861af26-d50b-4f31-98b9-467ac304307f/Building-a-Microcontroller-Board-from-Scratch.pdf?utm_campaign=Landing%20Page%20or%20Form%20-%20939283&utm_medium=email&utm_source=convertkit)  
   *(Comprehensive walkthrough of the full design-to-manufacturing pipeline)*

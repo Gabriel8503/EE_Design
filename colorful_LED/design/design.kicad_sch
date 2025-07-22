@@ -2580,7 +2580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 220.472 41.91 90)
 			(effects
 				(font
@@ -2648,7 +2648,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1TS009xxxx-xxxx-xxxx_6x6x5mm"
 			(at 196.85 44.45 0)
 			(effects
 				(font
@@ -2908,7 +2908,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "10k"
 			(at 205.74 44.196 90)
 			(effects
 				(font
@@ -3527,7 +3527,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_HC49-SD_HandSoldering"
 			(at 198.12 62.23 0)
 			(effects
 				(font

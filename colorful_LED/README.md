@@ -30,22 +30,9 @@ This Wokwi simulation serves as a **demonstration prototype**. The ultimate goal
 
 ## 🛠️ To Do
 
-- [ ] Select a microcontroller (e.g., ATtiny1616, ATmega328P)
+- [x] Select a microcontroller (atmega32u4 - Dedicated USB Module Powering and Analog Pins)
 - [ ] Design the PCB in KiCad
 - [ ] Adapt the code for that MCU (using AVR-GCC or Arduino core)
 - [ ] Print and etch the PCB
 - [ ] Assemble and test the final circuit
-
----
-
-## 📁 Files
-
-- `main.ino`: Arduino sketch used in Wokwi
-- `README.md`: Project overview and simulation link
-- KiCad design files: *coming soon*
-
-
-## License
-
-MIT License — free to use and modify.
 

@@ -52,67 +52,7 @@
 		(symbol "Reg_1_0_1"
 			(rectangle
 				(start -2.54 3.81)
-				(end 2.54 -3.81)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 2.54) (xy -5.08 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 0) (xy -5.08 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 -2.54) (xy -5.08 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 2.54) (xy 5.08 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -2.54) (xy 5.08 -2.54)
-				)
+				(end 5.08 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -123,43 +63,93 @@
 			)
 		)
 		(symbol "Reg_1_1_1"
-			(text "SW"
-				(at -1.524 2.54 0)
-				(effects
-					(font
-						(size 0.635 0.635)
+			(pin output line
+				(at -5.08 2.54 0)
+				(length 2.54)
+				(name "SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
 			)
-			(text "FB"
-				(at -1.524 -2.54 0)
-				(effects
-					(font
-						(size 0.635 0.635)
+			(pin power_out line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
 			)
-			(text "GND"
-				(at -1.27 0 0)
-				(effects
-					(font
-						(size 0.635 0.635)
+			(pin output line
+				(at -5.08 -2.54 0)
+				(length 2.54)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
 			)
-			(text "Vin"
-				(at 1.524 2.286 0)
-				(effects
-					(font
-						(size 0.635 0.635)
+			(pin power_in line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name "Vin"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
 			)
-			(text "EN"
-				(at 1.524 -2.54 0)
-				(effects
-					(font
-						(size 0.635 0.635)
+			(pin input line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
 			)

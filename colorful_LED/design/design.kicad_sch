@@ -7259,6 +7259,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 105.41 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48810461-d70e-4b6b-9dc7-305516811ca9")
+		(property "Reference" "RV3"
+			(at 102.87 88.9001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 112.522 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_3314S_Horizontal"
+			(at 105.41 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 105.41 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13f3e797-885b-4831-916d-6ea1f66c2e4a")
+		)
+		(pin "2"
+			(uuid "2f31e28f-f9e5-492e-b6b9-642250653882")
+		)
+		(pin "3"
+			(uuid "0c57f5ab-7e31-459c-bec9-5bb86ad62c96")
+		)
+		(instances
+			(project "design"
+				(path "/94c6f3db-6cf1-4f7f-a924-011f14387f61"
+					(reference "RV3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 205.74 44.45 90)
 		(unit 1)
@@ -7326,79 +7399,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 63.5 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4b496c87-3c65-4479-92c7-be1caec3a1ea")
-		(property "Reference" "RV1"
-			(at 60.96 88.9001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_Potentiometer"
-			(at 70.612 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Potentiometer_SMD:Potentiometer_ACP_CA6-VSMD_Vertical"
-			(at 63.5 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 63.5 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ea588de3-cae7-48ff-ae5e-f4df0aeb8c6f")
-		)
-		(pin "2"
-			(uuid "8aa300db-febc-42e7-9df3-68ebea8c785a")
-		)
-		(pin "3"
-			(uuid "e3561a3b-d2b0-45a7-8121-95fed82d17c1")
-		)
-		(instances
-			(project ""
-				(path "/94c6f3db-6cf1-4f7f-a924-011f14387f61"
-					(reference "RV1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 193.04 73.66 90)
 		(unit 1)
@@ -7423,7 +7423,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 196.85 72.6948 0)
 			(effects
 				(font
@@ -7728,79 +7728,6 @@
 			(project "design"
 				(path "/94c6f3db-6cf1-4f7f-a924-011f14387f61"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 105.41 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "660da92f-5299-4248-b60d-2c23b605b30c")
-		(property "Reference" "RV3"
-			(at 102.87 88.9001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_Potentiometer"
-			(at 112.522 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Potentiometer_SMD:Potentiometer_ACP_CA6-VSMD_Vertical"
-			(at 105.41 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 105.41 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "26388983-ea57-40dc-b9c3-e6d17f060e15")
-		)
-		(pin "2"
-			(uuid "ac36f0f0-035c-48a5-b098-d6f7037fc112")
-		)
-		(pin "3"
-			(uuid "d21a07da-17fd-4c8d-b191-549de684da8f")
-		)
-		(instances
-			(project "design"
-				(path "/94c6f3db-6cf1-4f7f-a924-011f14387f61"
-					(reference "RV3")
 					(unit 1)
 				)
 			)
@@ -8599,7 +8526,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 196.85 65.0748 0)
 			(effects
 				(font
@@ -8669,7 +8596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Potentiometer_SMD:Potentiometer_ACP_CA6-VSMD_Vertical"
+		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_3314S_Horizontal"
 			(at 85.09 87.63 0)
 			(effects
 				(font
@@ -9050,6 +8977,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 63.5 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e03ef484-1d59-43a4-9445-0b8fc6d2ab1e")
+		(property "Reference" "RV1"
+			(at 60.96 88.9001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 70.612 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_3314S_Horizontal"
+			(at 63.5 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 63.5 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d651882-1562-481d-ac1e-78fed33aa729")
+		)
+		(pin "2"
+			(uuid "46947bea-7e5e-46e5-8379-631ff117af08")
+		)
+		(pin "3"
+			(uuid "6af60a7d-ae87-45b8-985a-1a92e526d658")
+		)
+		(instances
+			(project "design"
+				(path "/94c6f3db-6cf1-4f7f-a924-011f14387f61"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 97.79 43.18 90)
 		(unit 1)
@@ -9067,7 +9067,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "10u"
 			(at 97.79 40.64 90)
 			(effects
 				(font

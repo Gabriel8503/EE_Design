@@ -1622,7 +1622,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED_BGRK"
+		(symbol "Device:LED_BKGR"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1638,7 +1638,7 @@
 					)
 				)
 			)
-			(property "Value" "LED_BGRK"
+			(property "Value" "LED_BKGR"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -1664,7 +1664,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RGB LED, blue/green/red/cathode"
+			(property "Description" "RGB LED, blue/cathode/green/red"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1691,7 +1691,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_BGRK_0_0"
+			(symbol "LED_BKGR_0_0"
 				(text "R"
 					(at 1.905 3.81 0)
 					(effects
@@ -1717,7 +1717,7 @@
 					)
 				)
 			)
-			(symbol "LED_BGRK_0_1"
+			(symbol "LED_BKGR_0_1"
 				(circle
 					(center -2.032 0)
 					(radius 0.254)
@@ -2049,7 +2049,7 @@
 					)
 				)
 			)
-			(symbol "LED_BGRK_1_1"
+			(symbol "LED_BKGR_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -2060,7 +2060,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2078,7 +2078,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2096,7 +2096,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5854,7 +5854,7 @@
 	)
 	(global_label "G_LEG"
 		(shape input)
-		(at 101.6 105.41 0)
+		(at 101.6 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5864,7 +5864,7 @@
 		)
 		(uuid "492a3b0b-402a-4bd4-90bc-3297cd893ecd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.2699 105.41 0)
+			(at 110.2699 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5964,7 +5964,7 @@
 	)
 	(global_label "B_LEG"
 		(shape input)
-		(at 101.6 113.03 0)
+		(at 101.6 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5974,7 +5974,7 @@
 		)
 		(uuid "668d01f7-5d7b-44cf-ad05-1c0ae60536d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.2699 113.03 0)
+			(at 110.2699 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9118,7 +9118,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_BGRK")
+		(lib_id "Device:LED_BKGR")
 		(at 80.01 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9126,8 +9126,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e5ba13d7-a3df-4fc4-be75-ceb249d19eae")
-		(property "Reference" "D3"
+		(uuid "e71cba03-0686-432d-bb5e-d414c4978f8a")
+		(property "Reference" "D5"
 			(at 80.01 91.44 0)
 			(effects
 				(font
@@ -9135,7 +9135,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_BGRK"
+		(property "Value" "LED_BKGR"
 			(at 80.01 93.98 0)
 			(effects
 				(font
@@ -9143,7 +9143,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB"
 			(at 80.01 106.68 0)
 			(effects
 				(font
@@ -9161,7 +9161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED, blue/green/red/cathode"
+		(property "Description" "RGB LED, blue/cathode/green/red"
 			(at 80.01 105.41 0)
 			(effects
 				(font
@@ -9170,22 +9170,22 @@
 				(hide yes)
 			)
 		)
+		(pin "2"
+			(uuid "a2305512-4e76-4213-bd47-5a6071e27a72")
+		)
 		(pin "4"
-			(uuid "8bbec8bd-dc96-44b0-8d32-e9131b24c119")
+			(uuid "8e53141d-a5d7-49eb-b6aa-419e0aef854d")
 		)
 		(pin "3"
-			(uuid "db5ee083-f867-4184-a65f-743ca3773c23")
-		)
-		(pin "2"
-			(uuid "58a8910e-e54f-4611-8984-614fdbf86e10")
+			(uuid "e9c82161-e4c3-4c23-9586-8a5152892e89")
 		)
 		(pin "1"
-			(uuid "a8e1c9d6-285f-4ebf-8c6d-aa3dbade8fdc")
+			(uuid "310a93db-36b7-4681-96a4-ec59362570bb")
 		)
 		(instances
 			(project ""
 				(path "/94c6f3db-6cf1-4f7f-a924-011f14387f61"
-					(reference "D3")
+					(reference "D5")
 					(unit 1)
 				)
 			)

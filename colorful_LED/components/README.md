@@ -2,7 +2,7 @@
 
 To order the parts for your project:
 
-1. Go to your Digi-Key list: [BDWM9005DX](https://www.digikey.com/en/mylists/list/BDWM9005DX)
+1. Go to the Digi-Key list: [Component List](https://www.digikey.com/en/mylists/list/BDWM9005DX)
 2. Review all components and ensure the quantities are correct.
 3. Click **"Add All to Cart"**.
 4. Proceed to checkout and place your order.

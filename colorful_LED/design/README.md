@@ -3,10 +3,12 @@
 ## Schematic
 Below is the latest schematic snapshot for reference:  
 
-![Schematic](schematic.png)  
+![Schematic Preview](https://github.com/Gabriel8503/EE_Design/raw/main/colorful_LED/design/Schematic.png)
 
 ## PCB Layout
-Below is the latest layout and 3D rendering for reference:
+Below is the latest layout snapshot and 3D rendering for reference:
+
+
 
 ## Design Notes
 - **Software Used:** KiCad  

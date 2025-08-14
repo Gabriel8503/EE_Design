@@ -3,7 +3,7 @@
 ## Schematic
 Below is the latest schematic snapshot for reference:  
 
-![Schematic](schematic.png)  
+![Schematic Preview](https://github.com/gabrielturak/MyPCBProject/raw/main/design/schematic.png)
 
 ## PCB Layout
 Below is the latest layout snapshot and 3D rendering for reference:
